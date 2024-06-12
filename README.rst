@@ -36,20 +36,38 @@ otp validator for emails
 Features
 --------
 
-- Can be bullet points
+- Email validation by otp
+
+RestAPI
+=======
 
 
-Examples
---------
+@validate-email-address
+-----------------------
 
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+Send an message to the passed email wit OTP code to verify the address.
+Returns a HTTP 204 in case of success or HTTP 400 in case the email is badly composed.::
 
+> curl -i -X POST http://localhost:8080/Plone/my-form/@validate-email-address --data-raw '{"email": "email@email.com", "uid": "ffffffff"}' -H 'Accept: application/json' -H 'Content-Type: application/json'
 
-Documentation
--------------
+parameters:
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+* `email` email address.
+* `uid` uid related to email field
+
+@validate-email-token
+---------------------
+
+Supposed to validate the OTP code received by the user via email.
+Returns HTTP 204 in case of success or HTTP 400 in case of failure ::
+
+> curl -i -X POST http://localhost:8080/Plone/my-form/@validate-email-token --data-raw '{"email": "email@email.com", "otp": "blahblahblah"}' -H 'Accept: application/json' -H 'Content-Type: application/json'
+
+parameters:
+
+* `email` email address
+* `uid` uid used to generate the OTP
+* `otp` OTP code
 
 
 Translations
@@ -57,7 +75,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- Italian
 
 
 Installation
@@ -79,7 +97,7 @@ and then running ``bin/buildout``
 Authors
 -------
 
-Provided by awesome people ;)
+RedTurtle
 
 
 Contributors
@@ -87,7 +105,7 @@ Contributors
 
 Put your name here, you deserve it!
 
-- ?
+- folix-01
 
 
 Contribute

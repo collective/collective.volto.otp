@@ -18,4 +18,13 @@
       directory="static"
       />
 
+  <browser:page
+      name="email-confirm-view"
+      for="*"
+      class=".email_confirm_view.EmailConfirmView"
+      template="templates/email_confirm_view.pt"
+      permission="zope2.View"
+      layer="collective.volto.otp.ICollectiveVoltoOtpLayer"
+      />
+
 </configure>

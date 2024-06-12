@@ -56,6 +56,8 @@ setup(
         "z3c.jbot",
         "plone.api>=1.8.4",
         "plone.app.dexterity",
+        "plone.keyring",
+        "pyotp",
     ],
     extras_require={
         "test": [
