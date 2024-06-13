@@ -12,10 +12,7 @@ from plone.restapi.services import Service
 from zExceptions import BadRequest
 
 from collective.volto.otp import _
-from collective.volto.otp.utils import (
-    generate_email_token,
-    validate_email_token,
-)
+from collective.volto.otp.utils import generate_email_token, validate_email_token
 
 CTE = os.environ.get("MAIL_CONTENT_TRANSFER_ENCODING", None)
 
