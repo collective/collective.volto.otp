@@ -7,8 +7,8 @@ import subprocess
 
 domain = 'collective.volto.otp'
 os.chdir(pkg_resources.resource_filename(domain, ''))
-os.chdir('../../../')
-target_path = 'src/collective.volto/otp/'
+os.chdir('../../../../')
+target_path = 'src/collective/volto/otp/'
 locale_path = target_path + 'locales/'
 i18ndude = './bin/i18ndude'
 
@@ -37,7 +37,7 @@ def locale_folder_setup():
                 shell=True,
             )
 
-    os.chdir('../../../../')
+    os.chdir('../../../../../')
 
 
 def _rebuild():

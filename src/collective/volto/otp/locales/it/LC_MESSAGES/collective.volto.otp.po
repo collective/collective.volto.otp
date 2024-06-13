@@ -16,7 +16,7 @@ msgstr ""
 
 #: collective/volto/otp/restapi/services/validation/email.py:55
 msgid "Email confirmation code"
-msgstr ""
+msgstr "Codice di conferma dell'email"
 
 #: collective/volto/otp/configure.zcml:29
 msgid "Installs the collective.volto.otp add-on."
@@ -24,27 +24,27 @@ msgstr ""
 
 #: collective/volto/otp/restapi/services/validation/email.py:98
 msgid "OTP is wrong"
-msgstr ""
+msgstr "Il codice OTP è errato."
 
 #: collective/volto/otp/restapi/services/validation/email.py:68
 msgid "The email field is missing"
-msgstr ""
+msgstr "Campo email è mancante"
 
 #: collective/volto/otp/browser/templates/email_confirm_view.pt:366
 msgid "The form on ${page} was compiled with this email address, if it was not you, ignore the message."
-msgstr ""
+msgstr "E' stato compilato un form nella pagina ${page}. Per favore inserisci questo codice di conferma per verificare che sei stato tu. Se non sei stato tu, ignora questa mail."
 
 #: collective/volto/otp/restapi/services/validation/email.py:92
 msgid "The otp field is missing"
-msgstr ""
+msgstr "Manca il campo OTP."
 
 #: collective/volto/otp/restapi/services/validation/email.py:71
 msgid "The provided email address is not valid"
-msgstr ""
+msgstr "L'email usato non è valido"
 
 #: collective/volto/otp/restapi/services/validation/email.py:74
 msgid "The uid field is missing"
-msgstr ""
+msgstr "Campo uid è mancante"
 
 #: collective/volto/otp/configure.zcml:38
 msgid "Uninstalls the collective.volto.otp add-on."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: collective/volto/otp/browser/templates/email_confirm_view.pt:352
 msgid "Your code to validate the email address:"
-msgstr ""
+msgstr "Il tuo codice per la conferma dell'indirizzo email:"
 
 #: collective/volto/otp/configure.zcml:29
 msgid "collective.volto.otp"

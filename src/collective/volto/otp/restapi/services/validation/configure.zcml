@@ -9,7 +9,7 @@
       factory=".email.ValidateEmailMessage"
       for="*"
       permission="zope2.View"
-      layer="collective.volto.otp.ICollectiveVoltoOtpLayer"
+      layer="collective.volto.otp.interfaces.ICollectiveVoltoOtpLayer"
       name="@validate-email-address"
       />
   <plone:service
@@ -17,7 +17,7 @@
       factory=".email.ValidateEmailToken"
       for="*"
       permission="zope2.View"
-      layer="collective.volto.otp.ICollectiveVoltoOtpLayer"
+      layer="collective.volto.otp.interfaces.ICollectiveVoltoOtpLayer"
       name="@validate-email-token"
       />
 
