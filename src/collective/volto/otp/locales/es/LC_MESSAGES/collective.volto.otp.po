@@ -1,0 +1,68 @@
+# Translation of collective.volto.otp to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-13 13:01+0000\n"
+"PO-Revision-Date: 2025-06-24 16:11+0200\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Domain: volto\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+"X-Generator: Poedit 3.6\n"
+
+#: collective/volto/otp/restapi/services/validation/email.py:55
+msgid "Email confirmation code"
+msgstr "Código de confirmación de email"
+
+#: collective/volto/otp/configure.zcml:29
+msgid "Installs the collective.volto.otp add-on."
+msgstr "Instala el complemento collective.volto.otp."
+
+#: collective/volto/otp/restapi/services/validation/email.py:98
+msgid "OTP is wrong"
+msgstr "OTP esta eqivocado"
+
+#: collective/volto/otp/restapi/services/validation/email.py:68
+msgid "The email field is missing"
+msgstr "Falta el campo de correo electrónico"
+
+#: collective/volto/otp/browser/templates/email_confirm_view.pt:366
+msgid "The form on ${page} was compiled with this email address, if it was not you, ignore the message."
+msgstr "El formulario en ${page} se compiló con esta dirección de correo electrónico, si no fue usted, ignore el mensaje."
+
+#: collective/volto/otp/restapi/services/validation/email.py:92
+msgid "The otp field is missing"
+msgstr "Falta el campo otp"
+
+#: collective/volto/otp/restapi/services/validation/email.py:71
+msgid "The provided email address is not valid"
+msgstr "La dirección de correo electrónico proporcionada no es válida"
+
+#: collective/volto/otp/restapi/services/validation/email.py:74
+msgid "The uid field is missing"
+msgstr "Falta el campo uid"
+
+#: collective/volto/otp/configure.zcml:38
+msgid "Uninstalls the collective.volto.otp add-on."
+msgstr "Desinstala el complemento collective.volto.otp."
+
+#: collective/volto/otp/browser/templates/email_confirm_view.pt:352
+msgid "Your code to validate the email address:"
+msgstr "Tu código para validar la dirección de correo electrónico:"
+
+#: collective/volto/otp/configure.zcml:29
+msgid "collective.volto.otp"
+msgstr "colectivo.volto.otp"
+
+#: collective/volto/otp/configure.zcml:38
+msgid "collective.volto.otp (uninstall)"
+msgstr "collective.volto.otp (desinstalar)"
