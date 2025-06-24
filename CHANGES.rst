@@ -5,6 +5,9 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+* Updated README file.
+  [macagua]
+
 * Added Spanish translations.
   [macagua]
 

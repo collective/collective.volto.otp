@@ -81,7 +81,7 @@ This product has been translated into
 Installation
 ------------
 
-Install collective.volto.otp by adding it to your buildout::
+Install ``collective.volto.otp`` by adding it to your buildout::
 
     [buildout]
 
@@ -106,7 +106,7 @@ Contributors
 Put your name here, you deserve it!
 
 - folix-01
-
+- Leonardo J. Caballero G.
 
 Contribute
 ----------
