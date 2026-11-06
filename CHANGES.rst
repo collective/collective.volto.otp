@@ -5,6 +5,9 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+* Added Brazilian Portuguese translations.
+  [wesleybl]
+
 * Updated README file.
   [macagua]
 
