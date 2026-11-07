@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.volto.otp\n"
+"POT-Creation-Date: 2026-11-06 21:31+0000\n"
+"PO-Revision-Date: 2026-11-06 18:31-0300\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+"Language-Team: Português do Brasil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Code: pt_BR\n"
+"Language-Name: Português do Brasil\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: collective.volto.otp\n"
+
+#: collective/volto/otp/restapi/services/validation/email.py:52
+msgid "Email confirmation code"
+msgstr "Código de confirmação de e-mail"
+
+#: collective/volto/otp/configure.zcml:30
+msgid "Installs the collective.volto.otp add-on."
+msgstr "Instala o complemento collective.volto.otp."
+
+#: collective/volto/otp/restapi/services/validation/email.py:95
+msgid "OTP is wrong"
+msgstr "O código OTP está incorreto."
+
+#: collective/volto/otp/restapi/services/validation/email.py:65
+msgid "The email field is missing"
+msgstr "O campo de e-mail não foi informado."
+
+#: collective/volto/otp/browser/templates/email_confirm_view.pt:366
+msgid "The form on ${page} was compiled with this email address, if it was not you, ignore the message."
+msgstr "O formulário em ${page} foi preenchido com este endereço de e-mail. Se não foi você, ignore esta mensagem."
+
+#: collective/volto/otp/restapi/services/validation/email.py:89
+msgid "The otp field is missing"
+msgstr "O campo OTP não foi informado."
+
+#: collective/volto/otp/restapi/services/validation/email.py:68
+msgid "The provided email address is not valid"
+msgstr "O endereço de e-mail informado é inválido."
+
+#: collective/volto/otp/restapi/services/validation/email.py:71
+msgid "The uid field is missing"
+msgstr "O campo UID não foi informado."
+
+#: collective/volto/otp/configure.zcml:39
+msgid "Uninstalls the collective.volto.otp add-on."
+msgstr "Desinstala o complemento collective.volto.otp."
+
+#: collective/volto/otp/browser/templates/email_confirm_view.pt:352
+msgid "Your code to validate the email address:"
+msgstr "Seu código para validar o endereço de e-mail:"
+
+#: collective/volto/otp/configure.zcml:30
+msgid "collective.volto.otp"
+msgstr "collective.volto.otp"
+
+#: collective/volto/otp/configure.zcml:39
+msgid "collective.volto.otp (uninstall)"
+msgstr "collective.volto.otp (desinstalação)"

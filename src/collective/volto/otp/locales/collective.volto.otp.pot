@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-06-13 13:02+0000\n"
+"POT-Creation-Date: 2026-11-06 21:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.volto.otp\n"
 
-#: collective/volto/otp/restapi/services/validation/email.py:55
+#: collective/volto/otp/restapi/services/validation/email.py:52
 msgid "Email confirmation code"
 msgstr ""
 
-#: collective/volto/otp/configure.zcml:29
+#: collective/volto/otp/configure.zcml:30
 msgid "Installs the collective.volto.otp add-on."
 msgstr ""
 
-#: collective/volto/otp/restapi/services/validation/email.py:98
+#: collective/volto/otp/restapi/services/validation/email.py:95
 msgid "OTP is wrong"
 msgstr ""
 
-#: collective/volto/otp/restapi/services/validation/email.py:68
+#: collective/volto/otp/restapi/services/validation/email.py:65
 msgid "The email field is missing"
 msgstr ""
 
@@ -37,19 +37,19 @@ msgstr ""
 msgid "The form on ${page} was compiled with this email address, if it was not you, ignore the message."
 msgstr ""
 
-#: collective/volto/otp/restapi/services/validation/email.py:92
+#: collective/volto/otp/restapi/services/validation/email.py:89
 msgid "The otp field is missing"
 msgstr ""
 
-#: collective/volto/otp/restapi/services/validation/email.py:71
+#: collective/volto/otp/restapi/services/validation/email.py:68
 msgid "The provided email address is not valid"
 msgstr ""
 
-#: collective/volto/otp/restapi/services/validation/email.py:74
+#: collective/volto/otp/restapi/services/validation/email.py:71
 msgid "The uid field is missing"
 msgstr ""
 
-#: collective/volto/otp/configure.zcml:38
+#: collective/volto/otp/configure.zcml:39
 msgid "Uninstalls the collective.volto.otp add-on."
 msgstr ""
 
@@ -57,10 +57,10 @@ msgstr ""
 msgid "Your code to validate the email address:"
 msgstr ""
 
-#: collective/volto/otp/configure.zcml:29
+#: collective/volto/otp/configure.zcml:30
 msgid "collective.volto.otp"
 msgstr ""
 
-#: collective/volto/otp/configure.zcml:38
+#: collective/volto/otp/configure.zcml:39
 msgid "collective.volto.otp (uninstall)"
 msgstr ""
