@@ -1,3 +1,6 @@
--c constraints_plone52.txt
-setuptools
-zc.buildout
+# Not constrained by Plone 5.2's requirements.txt: it pins zc.buildout 3.0.1,
+# which cannot install wheels with normalized (underscore) names.
+# Keep zc.buildout in sync with [versions] in test_plone52.cfg.
+setuptools==65.7.0
+zc.buildout==3.4
+wheel==0.38.4
